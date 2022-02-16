@@ -184,7 +184,7 @@ github.com/container-storage-interface/spec/lib/go/csi
 github.com/containerd/cgroups/stats/v1
 # github.com/containerd/console v1.0.2 => github.com/containerd/console v1.0.2
 github.com/containerd/console
-# github.com/containerd/containerd v1.4.11 => github.com/containerd/containerd v1.4.11
+# github.com/containerd/containerd v1.4.12 => github.com/containerd/containerd v1.4.11
 github.com/containerd/containerd/api/services/containers/v1
 github.com/containerd/containerd/api/services/tasks/v1
 github.com/containerd/containerd/api/services/version/v1
@@ -220,7 +220,7 @@ github.com/cyphar/filepath-securejoin
 github.com/davecgh/go-spew/spew
 # github.com/daviddengcn/go-colortext v0.0.0-20160507010035-511bcaf42ccd => github.com/daviddengcn/go-colortext v0.0.0-20160507010035-511bcaf42ccd
 github.com/daviddengcn/go-colortext
-# github.com/docker/distribution v2.7.1+incompatible => github.com/docker/distribution v2.7.1+incompatible
+# github.com/docker/distribution v2.8.0+incompatible => github.com/docker/distribution v2.7.1+incompatible
 ## explicit
 github.com/docker/distribution/digestset
 github.com/docker/distribution/reference
@@ -324,7 +324,7 @@ github.com/golang/protobuf/ptypes/timestamp
 github.com/golang/protobuf/ptypes/wrappers
 # github.com/google/btree v1.0.1 => github.com/google/btree v1.0.1
 github.com/google/btree
-# github.com/google/cadvisor v0.43.0 => github.com/google/cadvisor v0.43.0
+# github.com/google/cadvisor v0.43.0 => github.com/bwplotka/cadvisor v0.42.1-0.20220216161240-df0736a4409a
 ## explicit
 github.com/google/cadvisor/accelerators
 github.com/google/cadvisor/cache/memory
@@ -520,7 +520,7 @@ github.com/moby/ipvs
 # github.com/moby/spdystream v0.2.0 => github.com/moby/spdystream v0.2.0
 github.com/moby/spdystream
 github.com/moby/spdystream/spdy
-# github.com/moby/sys/mountinfo v0.4.1 => github.com/moby/sys/mountinfo v0.4.1
+# github.com/moby/sys/mountinfo v0.5.0 => github.com/moby/sys/mountinfo v0.4.1
 github.com/moby/sys/mountinfo
 # github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6 => github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6
 github.com/moby/term
@@ -597,7 +597,7 @@ github.com/onsi/gomega/matchers/support/goraph/util
 github.com/onsi/gomega/types
 # github.com/opencontainers/go-digest v1.0.0 => github.com/opencontainers/go-digest v1.0.0
 github.com/opencontainers/go-digest
-# github.com/opencontainers/runc v1.0.3 => github.com/opencontainers/runc v1.0.3
+# github.com/opencontainers/runc v1.1.0 => github.com/opencontainers/runc v1.0.3
 ## explicit
 github.com/opencontainers/runc/libcontainer
 github.com/opencontainers/runc/libcontainer/apparmor
@@ -642,9 +642,10 @@ github.com/pmezard/go-difflib/difflib
 # github.com/pquerna/cachecontrol v0.0.0-20171018203845-0dec1b30a021 => github.com/pquerna/cachecontrol v0.0.0-20171018203845-0dec1b30a021
 github.com/pquerna/cachecontrol
 github.com/pquerna/cachecontrol/cacheobject
-# github.com/prometheus/client_golang v1.12.0 => github.com/prometheus/client_golang v1.12.0
+# github.com/prometheus/client_golang v1.12.1-0.20220126194218-961f8ca5e65b => github.com/prometheus/client_golang v1.12.1-0.20220126194218-961f8ca5e65b
 ## explicit
 github.com/prometheus/client_golang/prometheus
+github.com/prometheus/client_golang/prometheus/cache
 github.com/prometheus/client_golang/prometheus/internal
 github.com/prometheus/client_golang/prometheus/promhttp
 github.com/prometheus/client_golang/prometheus/testutil
@@ -2541,7 +2542,7 @@ sigs.k8s.io/yaml
 # github.com/golang/protobuf => github.com/golang/protobuf v1.5.2
 # github.com/golangplus/testing => github.com/golangplus/testing v0.0.0-20180327235837-af21d9c3145e
 # github.com/google/btree => github.com/google/btree v1.0.1
-# github.com/google/cadvisor => github.com/google/cadvisor v0.43.0
+# github.com/google/cadvisor => github.com/bwplotka/cadvisor v0.42.1-0.20220216161240-df0736a4409a
 # github.com/google/cel-go => github.com/google/cel-go v0.9.0
 # github.com/google/cel-spec => github.com/google/cel-spec v0.6.0
 # github.com/google/go-cmp => github.com/google/go-cmp v0.5.5
@@ -2654,7 +2655,7 @@ sigs.k8s.io/yaml
 # github.com/pmezard/go-difflib => github.com/pmezard/go-difflib v1.0.0
 # github.com/posener/complete => github.com/posener/complete v1.1.1
 # github.com/pquerna/cachecontrol => github.com/pquerna/cachecontrol v0.0.0-20171018203845-0dec1b30a021
-# github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.12.0
+# github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.12.1-0.20220126194218-961f8ca5e65b
 # github.com/prometheus/client_model => github.com/prometheus/client_model v0.2.0
 # github.com/prometheus/common => github.com/prometheus/common v0.32.1
 # github.com/prometheus/procfs => github.com/prometheus/procfs v0.7.3
